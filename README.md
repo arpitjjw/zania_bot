@@ -6,6 +6,7 @@
 - ```docker run --memory="2g" -p 9200:9200 -e "discovery.type=single-node" -e "xpack.security.enabled=false" -e "xpack.security.http.ssl.enabled=false" docker.elastic.co/elasticsearch/elasticsearch:8.12.1```
 
 Then run:
+- ```pip install -r requirements.txt```
 - ```chmod +x run.sh```
 - ```(export $(cat .env | xargs) && ./run.sh)```
 
