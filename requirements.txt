@@ -1,0 +1,11 @@
+Flask==3.0.3
+langchain==0.2.3
+langchain-community==0.2.4
+langchain-core==0.2.5
+langchain-elasticsearch==0.2.2
+langchain-openai==0.1.8
+langchain-text-splitters==0.2.1
+openai==1.33.0
+PyPDF2==3.0.1
+uwsgi==2.0.23
+slack_sdk==3.28.0
